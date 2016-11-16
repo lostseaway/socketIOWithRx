@@ -12,9 +12,29 @@
 		65DDA4771DD9C4C1006B08D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DDA4751DD9C4C1006B08D9 /* Main.storyboard */; };
 		65DDA4791DD9C4C1006B08D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DDA4781DD9C4C1006B08D9 /* Assets.xcassets */; };
 		65DDA47C1DD9C4C1006B08D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DDA47A1DD9C4C1006B08D9 /* LaunchScreen.storyboard */; };
+		65DDA4851DD9C6A3006B08D9 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DDA4841DD9C6A3006B08D9 /* Networking.swift */; };
+		65F48BD11DDC553D00FCA7B6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F48BD01DDC553D00FCA7B6 /* MainViewController.swift */; };
+		65F48BD31DDC56FB00FCA7B6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F48BD21DDC56FB00FCA7B6 /* MainViewModel.swift */; };
+		65F48BD51DDC627D00FCA7B6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F48BD41DDC627D00FCA7B6 /* ChatViewController.swift */; };
+		65F48BDD1DDC634200FCA7B6 /* SocketExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F48BDC1DDC634200FCA7B6 /* SocketExperimentTests.swift */; };
+		65F48BE51DDC66E000FCA7B6 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F48BE41DDC66E000FCA7B6 /* ChatViewModel.swift */; };
+		65F48BE81DDC677B00FCA7B6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F48BE71DDC677B00FCA7B6 /* Message.swift */; };
+		65F48BEB1DDC681300FCA7B6 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F48BEA1DDC681300FCA7B6 /* MessageCell.swift */; };
+		EC87065E428EDA38FD2BF9AC /* Pods_SocketExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9973CE6B482CE4976E33C9 /* Pods_SocketExperiment.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		65F48BDF1DDC634200FCA7B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65DDA4661DD9C4C1006B08D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65DDA46D1DD9C4C1006B08D9;
+			remoteInfo = SocketExperiment;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		14968BCE6B421361764EC6C9 /* Pods-SocketExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketExperiment.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocketExperiment/Pods-SocketExperiment.release.xcconfig"; sourceTree = "<group>"; };
 		65DDA46E1DD9C4C1006B08D9 /* SocketExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DDA4711DD9C4C1006B08D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65DDA4731DD9C4C1006B08D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,10 +42,30 @@
 		65DDA4781DD9C4C1006B08D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65DDA47B1DD9C4C1006B08D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65DDA47D1DD9C4C1006B08D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DDA4841DD9C6A3006B08D9 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Utilities/Networking.swift; sourceTree = "<group>"; };
+		65F48BD01DDC553D00FCA7B6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ViewControllers/MainViewController.swift; sourceTree = "<group>"; };
+		65F48BD21DDC56FB00FCA7B6 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewModel.swift; path = ViewModels/MainViewModel.swift; sourceTree = "<group>"; };
+		65F48BD41DDC627D00FCA7B6 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = ViewControllers/ChatViewController.swift; sourceTree = "<group>"; };
+		65F48BDA1DDC634200FCA7B6 /* SocketExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F48BDC1DDC634200FCA7B6 /* SocketExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketExperimentTests.swift; sourceTree = "<group>"; };
+		65F48BDE1DDC634200FCA7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F48BE41DDC66E000FCA7B6 /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewModel.swift; path = ViewModels/ChatViewModel.swift; sourceTree = "<group>"; };
+		65F48BE71DDC677B00FCA7B6 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Model/Message.swift; sourceTree = "<group>"; };
+		65F48BEA1DDC681300FCA7B6 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageCell.swift; path = Views/MessageCell.swift; sourceTree = "<group>"; };
+		CA9973CE6B482CE4976E33C9 /* Pods_SocketExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocketExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B223A631E5A4B36C6E8AD9 /* Pods-SocketExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketExperiment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketExperiment/Pods-SocketExperiment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		65DDA46B1DD9C4C1006B08D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC87065E428EDA38FD2BF9AC /* Pods_SocketExperiment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F48BD71DDC634200FCA7B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,7 +79,10 @@
 			isa = PBXGroup;
 			children = (
 				65DDA4701DD9C4C1006B08D9 /* SocketExperiment */,
+				65F48BDB1DDC634200FCA7B6 /* SocketExperimentTests */,
 				65DDA46F1DD9C4C1006B08D9 /* Products */,
+				AC714AA8647C64ABD45B6337 /* Pods */,
+				B14199121D76493AE99531CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				65DDA46E1DD9C4C1006B08D9 /* SocketExperiment.app */,
+				65F48BDA1DDC634200FCA7B6 /* SocketExperimentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +98,11 @@
 		65DDA4701DD9C4C1006B08D9 /* SocketExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				65F48BE91DDC67CF00FCA7B6 /* View */,
+				65F48BE61DDC676100FCA7B6 /* Models */,
+				65F48BCF1DDC550400FCA7B6 /* ViewModels */,
+				65F48BCE1DDC54F800FCA7B6 /* ViewContorllers */,
+				65DDA4831DD9C68D006B08D9 /* Uitilities */,
 				65DDA4711DD9C4C1006B08D9 /* AppDelegate.swift */,
 				65DDA4731DD9C4C1006B08D9 /* ViewController.swift */,
 				65DDA4751DD9C4C1006B08D9 /* Main.storyboard */,
@@ -64,6 +113,74 @@
 			path = SocketExperiment;
 			sourceTree = "<group>";
 		};
+		65DDA4831DD9C68D006B08D9 /* Uitilities */ = {
+			isa = PBXGroup;
+			children = (
+				65DDA4841DD9C6A3006B08D9 /* Networking.swift */,
+			);
+			name = Uitilities;
+			sourceTree = "<group>";
+		};
+		65F48BCE1DDC54F800FCA7B6 /* ViewContorllers */ = {
+			isa = PBXGroup;
+			children = (
+				65F48BD01DDC553D00FCA7B6 /* MainViewController.swift */,
+				65F48BD41DDC627D00FCA7B6 /* ChatViewController.swift */,
+			);
+			name = ViewContorllers;
+			sourceTree = "<group>";
+		};
+		65F48BCF1DDC550400FCA7B6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				65F48BD21DDC56FB00FCA7B6 /* MainViewModel.swift */,
+				65F48BE41DDC66E000FCA7B6 /* ChatViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		65F48BDB1DDC634200FCA7B6 /* SocketExperimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				65F48BDC1DDC634200FCA7B6 /* SocketExperimentTests.swift */,
+				65F48BDE1DDC634200FCA7B6 /* Info.plist */,
+			);
+			path = SocketExperimentTests;
+			sourceTree = "<group>";
+		};
+		65F48BE61DDC676100FCA7B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65F48BE71DDC677B00FCA7B6 /* Message.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		65F48BE91DDC67CF00FCA7B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65F48BEA1DDC681300FCA7B6 /* MessageCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AC714AA8647C64ABD45B6337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5B223A631E5A4B36C6E8AD9 /* Pods-SocketExperiment.debug.xcconfig */,
+				14968BCE6B421361764EC6C9 /* Pods-SocketExperiment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B14199121D76493AE99531CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA9973CE6B482CE4976E33C9 /* Pods_SocketExperiment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65DDA4801DD9C4C1006B08D9 /* Build configuration list for PBXNativeTarget "SocketExperiment" */;
 			buildPhases = (
+				2D347A9689A84BD326A15937 /* [CP] Check Pods Manifest.lock */,
 				65DDA46A1DD9C4C1006B08D9 /* Sources */,
 				65DDA46B1DD9C4C1006B08D9 /* Frameworks */,
 				65DDA46C1DD9C4C1006B08D9 /* Resources */,
+				70640C31A0E8601E954DD1F9 /* [CP] Embed Pods Frameworks */,
+				5FE5EA7161B2B941EC5EF377 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,6 +203,24 @@
 			productName = SocketExperiment;
 			productReference = 65DDA46E1DD9C4C1006B08D9 /* SocketExperiment.app */;
 			productType = "com.apple.product-type.application";
+		};
+		65F48BD91DDC634200FCA7B6 /* SocketExperimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F48BE11DDC634200FCA7B6 /* Build configuration list for PBXNativeTarget "SocketExperimentTests" */;
+			buildPhases = (
+				65F48BD61DDC634200FCA7B6 /* Sources */,
+				65F48BD71DDC634200FCA7B6 /* Frameworks */,
+				65F48BD81DDC634200FCA7B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F48BE01DDC634200FCA7B6 /* PBXTargetDependency */,
+			);
+			name = SocketExperimentTests;
+			productName = SocketExperimentTests;
+			productReference = 65F48BDA1DDC634200FCA7B6 /* SocketExperimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +236,12 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = YUV4YJX2TS;
 						ProvisioningStyle = Automatic;
+					};
+					65F48BD91DDC634200FCA7B6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YUV4YJX2TS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65DDA46D1DD9C4C1006B08D9;
 					};
 				};
 			};
@@ -115,6 +259,7 @@
 			projectRoot = "";
 			targets = (
 				65DDA46D1DD9C4C1006B08D9 /* SocketExperiment */,
+				65F48BD91DDC634200FCA7B6 /* SocketExperimentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,19 +275,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65F48BD81DDC634200FCA7B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D347A9689A84BD326A15937 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE5EA7161B2B941EC5EF377 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketExperiment/Pods-SocketExperiment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70640C31A0E8601E954DD1F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketExperiment/Pods-SocketExperiment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65DDA46A1DD9C4C1006B08D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F48BD31DDC56FB00FCA7B6 /* MainViewModel.swift in Sources */,
+				65F48BE51DDC66E000FCA7B6 /* ChatViewModel.swift in Sources */,
+				65DDA4851DD9C6A3006B08D9 /* Networking.swift in Sources */,
 				65DDA4741DD9C4C1006B08D9 /* ViewController.swift in Sources */,
 				65DDA4721DD9C4C1006B08D9 /* AppDelegate.swift in Sources */,
+				65F48BE81DDC677B00FCA7B6 /* Message.swift in Sources */,
+				65F48BD51DDC627D00FCA7B6 /* ChatViewController.swift in Sources */,
+				65F48BD11DDC553D00FCA7B6 /* MainViewController.swift in Sources */,
+				65F48BEB1DDC681300FCA7B6 /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F48BD61DDC634200FCA7B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F48BDD1DDC634200FCA7B6 /* SocketExperimentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65F48BE01DDC634200FCA7B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65DDA46D1DD9C4C1006B08D9 /* SocketExperiment */;
+			targetProxy = 65F48BDF1DDC634200FCA7B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		65DDA4751DD9C4C1006B08D9 /* Main.storyboard */ = {
@@ -257,6 +480,7 @@
 		};
 		65DDA4811DD9C4C1006B08D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B223A631E5A4B36C6E8AD9 /* Pods-SocketExperiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YUV4YJX2TS;
@@ -270,6 +494,7 @@
 		};
 		65DDA4821DD9C4C1006B08D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14968BCE6B421361764EC6C9 /* Pods-SocketExperiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YUV4YJX2TS;
@@ -278,6 +503,34 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsw.SocketExperiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		65F48BE21DDC634200FCA7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YUV4YJX2TS;
+				INFOPLIST_FILE = SocketExperimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsw.SocketExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketExperiment.app/SocketExperiment";
+			};
+			name = Debug;
+		};
+		65F48BE31DDC634200FCA7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YUV4YJX2TS;
+				INFOPLIST_FILE = SocketExperimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsw.SocketExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketExperiment.app/SocketExperiment";
 			};
 			name = Release;
 		};
@@ -298,6 +551,15 @@
 			buildConfigurations = (
 				65DDA4811DD9C4C1006B08D9 /* Debug */,
 				65DDA4821DD9C4C1006B08D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F48BE11DDC634200FCA7B6 /* Build configuration list for PBXNativeTarget "SocketExperimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F48BE21DDC634200FCA7B6 /* Debug */,
+				65F48BE31DDC634200FCA7B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
